@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title> DIY</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?
+    family=Poppins&display=swap" rel="stylesheet">
+</head>    
+<body>
+    
+<div class="tab">
+
+    <button class="tablinks" onclick="openCity(event, 'HOME')" id="defaultOpen">HOME</button>
+    <button class="tablinks" onclick="openCity(event, 'CATEGORY')">CATEGORY<i class="fa fa-angle-down"></i></button>
+    <button class="tablinks" onclick="openCity(event, 'SHOWCASE')">SHOWCASE</button>
+    <button class="tablinks" onclick="openCity(event, 'SHOP')">SHOP<i class="fa fa-angle-down"></i></button>
+    <button class="tablinks" onclick="openCity(event, 'APP')">APP</button>
+    <button class="tablinks" onclick="openCity(event, 'ABOUT')">ABOUT</button>
+    <div class="Search">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    <div class="Login">
+        <p>Login</p>
+        </div>
+</div>
+   
+
+<div id="HOME" class = "tabcontent">
+    <div class="backtext">
+    <p>Try it now</p>
+    </div>
+    <div class="textonimage">
+        <h1>From Rookie to Master</h1>
+    </div>
+    <img class = "imgbroccoli" src = "img/background1.jpg" alt="background image" class="sqaure">
+    <div class=" Jolly">
+        <p>BE JOLLY AND CREATIVE EVERY DAY!</p>
+    </div>
+    <div class="number">
+        <p>312,083</p>
+    </div>
+    <div class="DIYBeavery">
+        <p>DIYers at Beavery</p>
+    </div>
+    <img class ="Handcraft" src="img/Handcraft.jpg" alt="Handcraft">
+    <img class ="food" src="img/food.jpg" alt="food">
+    <img class ="Jewellery" src="img/Jewellery.jpg" alt="Jewellery">
+    <img class ="Furniture" src="img/Furniture.jpg" alt="Furniture">
+    <img class ="Garden" src="img/Garden.jpg" alt="Garden">
+    <img class ="Activites" src="img/Activites.jpg" alt="Activites">
+</div>
+
+<div id="CATEGORY" class = "tabcontent">
+    <H1>category</H1>
+</div>
+
+<div id="SHOWCASE" class = "tabcontent">
+    <h1>showcase</h1>
+    <p>Showcase page diy products</p>
+</div>
+
+<div id="SHOP" class = "tabcontent">
+    <h1>Shop</h1>
+    <p>shop page diy products</p>
+</div>
+
+<div id="APP" class = "tabcontent">
+    <h1>App</h1>
+    <p>App page diy products</p>
+</div>
+
+<div id="ABOUT" class = "tabcontent">
+    <h1>About</h1>
+    <p>About page diy products</p>
+</div>
+
+<footer>
+    <h2 class ="footSupport">Support</h2>
+    <p class = "footSupportp">Help center<br>
+    FAQs<br>Accessibility<br>Copyright protection</p>
+    <p</p>
+    <h2 class = "footCommericals">Commercials</h2>
+    <p class = "footCommericalsp">Be a DIY freelancer<br>
+    Business cooperation<br> Advertisement</p>
+    <h2 class = "footabout">About</h2>
+    <p class = "footaboutp">Beavery's story<br>Customized service<br>Work with us<br>Contact us</p>
+</footer>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+
+
+</body>
+</html>
