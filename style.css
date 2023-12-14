@@ -1,0 +1,2103 @@
+
+
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.tab{
+    border-bottom:1px solid #c4b7b7;
+    box-shadow: 5px 5px #e7e1e1;
+    width: 100%; /* length of the border tab */
+    position: 200px;
+    margin-left:20px auto;
+    text-align: center;
+    overflow-x: hidden;
+}
+.tab button{
+    background: transparent;
+    top:0x;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding: 16px 20px;
+    font-size:14px;
+    font-weight:bold;
+    color: grey;
+}
+
+.tab button:hover{
+    color: rgba(24, 6, 6, 0.533)c;
+}
+
+.tabcontent{
+    margin:20px;
+}
+.Beaverylogo{
+    position: relative;
+    right:975px;
+    top:8px;
+    width: 150px;
+    height: 40px;
+    
+}
+.Search{
+    position: absolute;
+    right:250px;
+    top: 15px;
+    background: transparent;
+    width:175px;
+    height: 25px;
+    border-radius: 8px;
+    border:2px solid #c9bebe;
+}
+
+.Searchi{
+    position: relative;
+    bottom:2px;
+    left:268px;
+    width:20px;
+}
+
+.login{
+    position:absolute;
+    right:100px;
+    top:10px;
+    background: #ed1c57;
+    border-radius: 40px;
+    width: 97px;
+    height: 30px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+}
+
+.login p{
+    position: absolute;
+    font-size: 14px;
+    left: 27px;
+    bottom:-8px;
+    color: #fcfcfc;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(138, 35, 59);
+    
+}
+
+.FeaturedTutorialsp{
+    position: relative;
+    text-align: center;
+    font-size:20px;
+    bottom:315px;
+}
+
+.gradientline{
+    position: relative;
+    bottom:300px;
+    background-image: linear-gradient(to right,rgb(253, 62, 164), rgb(255, 200, 0));
+    height:3px;
+    border-radius: 3px;
+    width:99%;
+}
+
+
+.pizza{
+    position: relative;
+    bottom:255px;
+    width:31%;
+}
+
+
+.food h2{
+    position: relative;
+    bottom: 610px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3.0; 
+}
+
+.food p{
+    position: relative;
+    bottom: 610px;
+    font-size: 12px;
+    opacity: 60%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3.0; 
+}
+.Foodsign{
+    position:relative;
+    background: #ed1c57;
+    border-radius: 5px;
+    width: 50px;
+    height: 18px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    bottom: 920px;
+    left: 15px;
+}
+.craft{
+    position: relative;
+    bottom:512px;
+    left:15px;
+    width:33%;
+    height:31%;
+    
+}
+
+.Handcraft h2{
+    position: relative;
+    bottom: 1000px;
+    left:490px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+    
+}
+
+.Handcraft p{
+    position: relative;
+    bottom: 1005px;
+    left:490px;
+    font-size: 12px;
+    opacity: 60%;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5; 
+}
+.Handcraftsign{
+    position:relative;
+    background: #ed1c57;
+    border-radius: 5px;
+    width: 80px;
+    height: 18px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    bottom: 938px;
+    left: 500px;
+}
+
+.gardening{
+    position: relative;
+    bottom:257px;
+    right:476px;
+    width:33%;
+    height:31%; 
+}
+
+.Handcraft2 h2{
+    position: relative;
+    bottom: 950px;
+    left:500px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+.Handcraft2 p{
+    position: relative;
+    bottom: 960px;
+    left:500px;
+    font-size: 12px;
+    opacity: 60%;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+.Handcraftsign2{
+    position:relative;
+    background: #ed1c57;
+    border-radius: 5px;
+    width: 80px;
+    height: 18px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    bottom: 955px;
+    left: 1000px;
+}
+
+.ring{
+    position: relative;
+    bottom:719px;
+    left:985px;
+    width:33%;
+    height:31%;
+}
+
+.Jewellery h2{
+    position: relative;
+    bottom: 1210px;
+    left:969px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+.Jewellery p{
+    position: relative;
+    bottom: 1215px;
+    left:969px;
+    font-size: 12px;
+    opacity: 60%;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+.Jewellerysign{
+    position:relative;
+    background: #ed1c57;
+    border-radius: 5px;
+    width: 80px;
+    height: 18px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    bottom: 713px;
+    left: 500px;
+}
+
+.wardrobe{
+    position: relative;
+    bottom:463px;
+    left:492px;
+    width:33%;
+    height:31%;
+}
+
+.Furniture h2{
+    position: relative;
+    bottom: 1080px;
+    left:990px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+.Furniture p{
+    position: relative;
+    bottom: 1080px;
+    left:990px;
+    font-size: 12px;
+    opacity: 60%;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+.Furnituresign{
+    position:relative;
+    background: #ed1c57;
+    border-radius: 5px;
+    width: 80px;
+    height: 18px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    bottom: 730px;
+    left: 1002px;
+}
+
+.slide{
+    position: relative;
+    left:650px;
+    bottom:1120px;
+}
+
+footer{
+    padding-bottom: 180px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(119, 103, 103);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px #c4b7b7;
+    position: relative;
+    border-top:1px solid #c4b7b7;
+}
+
+.textonimage{
+    color: rgb(138, 47, 4);
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 900px;
+    font-style: italic;
+    font-family:cursive;
+    }
+
+.banner{
+    width: 105%;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+
+}
+.Jolly{
+    position: relative;
+    background-size: 1px;
+    top:70px;
+    left:15px;
+}
+
+.container1 p{
+    position: relative;
+    left:850px;
+    bottom:20px;
+    font-size: 40px;
+}
+
+.DIYersatBeavery{
+    position: relative;
+    bottom:160px;
+    left:1050px;
+}
+
+.beaver{
+    position: relative;
+    left:1050px;
+    bottom:160px;  
+}
+
+.number{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top:439px;
+    right:650px; 
+}
+.DIYBeavery{
+    font-size:20px;
+    font-weight: bold;
+    color:#E92B64;
+    position: absolute;
+    top:455px;
+    right:450px;
+}
+.Handcraft{
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+    width:32%;
+    
+}
+
+.Handcraftp{
+    position: relative;
+    bottom: 390px;
+    left:60px;
+    font-size:40px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.food{
+    position: relative;
+    left: 20px;
+    bottom: 90px;
+    width: 32%;
+    
+}
+
+.Foodp{
+    position: relative;
+    bottom: 435px;
+    left:560px;
+    font-size:40px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Jewellery{
+    position: relative;
+    left:31px;
+    bottom: 90px;
+    width: 32%;
+}
+
+.Jewelleryp{
+    position: relative;
+    bottom: 480px;
+    left: 1040px;
+    font-size: 40px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Furniture{
+    position: relative;
+    bottom:80px;
+    left: 10px;
+    width:32%;
+
+}
+
+.Furniturep{
+    position: relative;
+    bottom: 300px;
+    left:60px;
+    font-size: 40px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Garden{
+    position: relative;
+    bottom: 80px;
+    left:20px;
+    width:32%;
+}
+
+.Gardenp{
+    position: relative;
+    bottom:345px;
+    left:550px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.Activites{
+    position: relative;
+    bottom:80px;
+    left:31px;
+    width:32%;
+}
+
+.Activitesp{
+    position: relative;
+    bottom:392px;
+    left:1030px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.containerslide1{
+    position: relative;
+    bottom: 1080px;
+    width: 110%;
+    margin-left: -20px;
+    background-size: 100%;
+    background-color: rgba(255, 242, 237, 1);
+    
+}
+
+.slideone{
+    position: relative;
+    border-radius: 6px;
+    width:23%;
+    height:50%;
+    left:900px;
+    top:150px;
+    
+}
+
+.containerslide1 h2{
+    position: relative;
+    bottom:230px;
+    left: 200px;
+    font-size: 40px;
+    
+}
+
+.gradientslide1{
+    position: relative;
+    background: linear-gradient(90deg, #E92B64 0%, #FE763C 100%);
+    height:4px;
+    left: 200px;
+    bottom:220px;
+    border-radius: 3px;
+    width:36.5%;
+    
+}
+
+.containerslide1 p{
+    position: relative;
+    bottom:200px;
+    left: 200px;
+    line-height: 2.0;
+    
+}
+
+.tryitnow1{
+    position:relative;
+    left:200px;
+    bottom:160px;
+    background: #ed1c57;
+    border-radius: 80px;
+    width: 80px;
+    height: 20px;
+    padding: 5px 7px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px rgb(138, 35, 59);
+    
+}
+
+.containerslide2{
+    position: relative;
+    bottom: 1080px;
+    width: 110%;
+    margin-left: -20px;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.slideone2{
+    position: relative;
+    border-radius: 6px;
+    width:23%;
+    height:50%;
+    left:185px;
+    top:150px;
+    
+    
+}
+
+.containerslide2 h2{
+    position: relative;
+    bottom:230px;
+    left: 600px;
+    font-size: 40px;
+    
+}
+
+.gradientslide2{
+    position: relative;
+    background: linear-gradient(90deg, #E92B64 0%, #FE763C 100%);
+    height:4px;
+    left: 600px;
+    bottom:220px;
+    border-radius: 3px;
+    width:40.7%;
+    
+
+}
+
+.containerslide2 p{
+    position: relative;
+    bottom:200px;
+    left: 600px;
+    line-height: 2.0;
+    
+}
+
+.tryitnow2{
+    position:relative;
+    left:1140px;
+    bottom:160px;
+    background: #ed1c57;
+    border-radius: 80px;
+    width: 110px;
+    height: 20px;
+    padding: 5px 7px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px rgb(138, 35, 59);
+    
+}
+
+.containerslide3{
+    position: relative;
+    bottom: 1080px;
+    width: 110%;
+    margin-left: -20px;
+    background-size: 100%;
+    background-color: rgba(255, 242, 237, 1);
+    
+}
+
+.slideone3{
+    position: relative;
+    border-radius: 6px;
+    width:23%;
+    height:50%;
+    left:900px;
+    top:150px;
+
+    
+}
+
+.containerslide3 h2{
+    position: relative;
+    bottom:230px;
+    left: 200px;
+    font-size: 40px;
+    
+}
+
+.gradientslide3{
+    position: relative;
+    background: linear-gradient(90deg, #E92B64 0%, #FE763C 100%);
+    height:4px;
+    left: 200px;
+    bottom:220px;
+    border-radius: 3px;
+    width:34%;
+    
+}
+
+.containerslide3 p{
+    position: relative;
+    bottom:200px;
+    left: 200px;
+    line-height: 2.0;
+    
+}
+
+.tryitnow3{
+    position:relative;
+    left:200px;
+    bottom:160px;
+    background: #ed1c57;
+    border-radius: 80px;
+    width: 120px;
+    height: 20px;
+    padding: 5px 7px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px rgb(138, 35, 59);
+    
+}
+
+.containerslide4{
+    position: relative;
+    bottom: 1080px;
+    width: 110%;
+    margin-left: -20px;
+    margin-bottom:-500px;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    
+
+    
+}
+
+.slideone4{
+    position: relative;
+    border-radius: 6px;
+    width:23%;
+    height:50%;
+    left:185px;
+    top:150px;
+    overflow-x: hidden;
+    
+}
+
+.containerslide4 h2{
+    position: relative;
+    bottom:230px;
+    left: 600px;
+    font-size: 40px;
+    overflow-x: hidden;
+}
+
+.gradientslide4{
+    position: relative;
+    background: linear-gradient(90deg, #E92B64 0%, #FE763C 100%);
+    height:4px;
+    left: 600px;
+    bottom:220px;
+    border-radius: 3px;
+    width:36.7%;
+    overflow-x: hidden;
+}
+
+.containerslide4 p{
+    position: relative;
+    bottom:200px;
+    left: 600px;
+    line-height: 2.0;
+    overflow-x: hidden;
+}
+
+.tryitnow4{
+    position:relative;
+    left:1063px;
+    bottom:160px;
+    background: #ed1c57;
+    border-radius: 80px;
+    width: 120px;
+    height: 20px;
+    padding: 5px 7px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px rgb(138, 35, 59);
+    overflow-x: hidden;
+}
+
+.subcategory h2{
+    position: relative;
+    word-spacing: 14px;
+    font-size: 14px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+.subcategory p{
+    position: absolute;
+    top: 67px;
+    left:180px;
+    color: rgba(47, 42, 44, 0.5);
+    font-size: 14px;
+}
+
+.rightarrow{
+    position: absolute;
+    top:80px;
+    left:100px;
+}
+
+.rightarrow2{
+    position: absolute;
+    left:160;
+    top:80px;
+}
+
+.subcategory2{
+    font-size: 16px;
+}
+
+.Foodbutton{
+    position:absolute;
+    background: rgba(47, 42, 44, 0.3);
+    border-radius: 5px;
+    width: 45px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.Breadbutton{
+    position:absolute;
+    background: rgba(47, 42, 44, 0.3);
+    border-radius: 5px;
+    width: 45px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    left: 80px;
+}
+
+.Winterbutton{
+    position:absolute;
+    background: rgba(47, 42, 44, 0.3);
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    left:140px;
+}
+
+.Dessertbutton{
+    position:absolute;
+    background: rgba(47, 42, 44, 0.3);
+    border-radius: 5px;
+    width: 55px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    left:205px;
+}
+
+.Brunchbutton{
+    position:absolute;
+    background: rgba(47, 42, 44, 0.3);
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    left:275px;
+}
+
+.subcategorybuttons p{
+    position: relative;
+    color: rgba(47, 42, 44, 0.3);
+    font-size: 14px;
+    left: 320px;
+}
+
+.profile{
+    position: relative;
+    top: 5px;
+}
+
+.subcategory3 h1{
+    position: absolute;
+    font-size: 14px;
+    top:735px;
+    left:75px;
+}
+
+.vsymbol{
+    position: absolute;
+    top:746px;
+    left:175px;
+}
+
+.subcategory3 p{
+    position: absolute;
+    top: 755px;
+    left:75px;
+    font-size: 13px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+.Followbutton{
+    position:absolute;
+    background: #ed1c57;
+    border-radius: 40px;
+    width: 80px;
+    height: 17px;
+    box-shadow: 2px 2px rgb(178, 79, 115);
+    text-align: center;
+    color: white;
+    padding: 3px 0px;
+    font-size: 14px;
+    top:750px;
+    left:205px;
+}
+
+.symbolsbutton{
+    position: absolute;
+    top:750px;
+    left:700px;
+}
+
+.symbolsbutton p{
+    position: absolute;
+    top:-4px;
+    left:30px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.5);
+
+}
+
+.symbolsbutton2{
+    position: absolute;
+    top:750px;
+    left:760px;
+}
+
+.symbolsbutton2 p{
+    position: absolute;
+    top:-4px;
+    left:30px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.5);
+
+}
+
+.symbolsbutton3{
+    position: absolute;
+    top:755px;
+    left:815px;
+}
+
+.symbolsbutton3 p{
+    position: absolute;
+    top:-9px;
+    left:30px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.5);
+
+}
+
+.symbolsbutton4{
+    position: absolute;
+    top:755px;
+    left:870px;
+}
+
+.symbolsbutton4 p{
+    position: absolute;
+    top:-7px;
+    left:30px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+.symbolsbutton5{
+    position: absolute;
+    top:757px;
+    left:930px;
+}
+
+.gradient21{
+    position: absolute;
+    top: 810px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 3px;
+    width:62.4%;
+}
+
+.paragrapgh p{
+    position: relative;
+    top:30px;
+    font-size: 14px;
+    color:rgba(47, 42, 44, 0.8);
+    margin-bottom: 5px;
+}
+
+.ingredients h2{
+    position: relative;
+    top:30px;
+    font-size: 14px;
+}
+
+.gradient22{
+    position: absolute;
+    top: 900px;
+    left:100px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 3px;
+    width:57.4%;
+}
+
+.ingredients p{
+    position: relative;
+    top:40px;
+    font-size: 14px;
+    line-height: 2.5;
+    margin-bottom: 30px;
+    color:rgba(47, 42, 44, 0.8);
+}
+
+.ingredients p1{
+    position: absolute;
+    top:932px;
+    left:400px;
+    font-size: 14px;
+    line-height: 2.5;
+    margin-bottom: 30px;
+    color:rgba(47, 42, 44, 0.8);
+}
+
+.ingredients p2{
+    position: absolute;
+    top:966px;
+    left:310px;
+    font-size: 14px;
+    line-height: 2.5;
+    margin-bottom: 30px;
+    color:rgba(47, 42, 44, 0.8);
+}
+
+.ingredients p3{
+    position: absolute;
+    top:932px;
+    left:660px;
+    font-size: 14px;
+    line-height: 2.5;
+    margin-bottom: 30px;
+    color:rgba(47, 42, 44, 0.8);
+}
+
+.reddott1{
+    position: absolute;
+    top:947px;
+    left:15px;
+}
+
+.reddott2{
+    position: absolute;
+    top:983px;
+    left:15px;
+}
+
+.reddott3{
+    position: absolute;
+    top:947px;
+    left:395px;
+}
+
+.reddott4{
+    position: absolute;
+    top:983px;
+    left:395px;
+}
+
+.reddott5{
+    position: absolute;
+    top:1016px;
+    left:15px;
+}
+
+.reddott6{
+    position: absolute;
+    top:1016px;
+    left:395px
+}
+
+.reddott7{
+    position: absolute;
+    top:1053px;
+    left:15px;
+}
+
+.reddott8{
+    position: absolute;
+    top:1053px;
+    left:395px;
+}
+
+.reddott9{
+    position: absolute;
+    top:1087px;
+    left:15px;
+}
+
+.reddott10{
+    position: absolute;
+    top:1087px;
+    left:395px;
+}
+
+.solidonline{
+    position: absolute;
+    top:910px;
+    left:705px;
+    width: 18%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color: rgb(255, 238, 231);
+}
+.solidonline h1{
+    position: absolute;
+    font-size: 14px;
+    color:rgba(233, 43, 100, 1);
+    left: 18px;
+}
+
+.solidonline p{
+    position: absolute;
+    font-size: 14px;
+    line-height: 2.8;
+    left: 18px;
+    top:20px;
+}
+
+.solidonline p1{
+    position: absolute;
+    top: 34px;
+    font-size: 14px;
+    line-height: 2.8;
+    left: 138px;
+    color: rgba(47, 42, 44, 0.8);
+}
+
+.solidonline p2{
+    position: absolute;
+    top: 33px;
+    font-size: 12px;
+    line-height: 3.3;
+    left: 208px;
+    color: rgba(47, 42, 44, 0.8);
+
+}
+
+.solidgradient{
+    position: absolute;
+    top:73px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 2px;
+    width:93%;
+    left:8px;
+}
+
+.solidgradient2{
+    position: absolute;
+    top:110px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 2px;
+    width:93%;
+    left:8px;
+}
+
+.solidgradient3{
+    position: absolute;
+    top:150px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 2px;
+    width:93%;
+    left:8px;
+}
+
+.solidgradient4{
+    position: absolute;
+    top:188px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 2px;
+    width:93%;
+    left:8px;
+}
+
+.solidonlinebutton{
+    position: absolute;
+    top:210px;
+    left:14px;
+    color: rgba(233, 43, 100, 1);
+    font-size: 14px;
+    text-align: center;
+    background: white;
+    width:240px;
+    height: 18px;
+    border-radius: 10px;
+    border:2px solid rgba(233, 43, 100, 1);
+}
+
+.circlered{
+    position: absolute;
+    border-radius: 5px;
+    top:47px;
+    left:3px;
+}
+
+.circlegrey{
+    position: absolute;
+    border-radius: 5px;
+    top:86px;
+    left:3px;
+}
+
+.circlegrey2{
+    position: absolute;
+    background-color: #E92B64;
+    border-radius: 5px;
+    top:125px;
+    left:3px;
+}
+
+.circlegrey3{
+    position: absolute;
+    border-radius: 5px;
+    top:165px;
+    left:3px;
+}
+
+
+
+.steps h1{
+    position: relative;
+    top:60px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.stepsgradient{
+    position: absolute;
+    top:1164px;
+    left: 60px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 3px;
+    width:60.4%;
+}
+
+.imagestep{
+    position: relative;
+    top:60px;
+    left:637px;
+}
+
+.stepbullet1{
+    position: absolute;
+    left:20px;
+    top:1190px;
+}
+
+.step1 p{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1171.9px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step1 p1{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1240px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step1 p2{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1290px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.imagestep2{
+    position: relative;
+    top:110px;
+    left:637px;
+    margin-bottom: 5px;
+}
+
+.stepbullet2{
+    position: absolute;
+    left:20px;
+    top:1450px;
+}
+
+.step2 p{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1433px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step2 p1{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1520px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.imagestep3{
+    position: relative;
+    top:160px;
+    left:637px;
+    margin-bottom: 180px;
+}
+
+.stepbullet3{
+    position: absolute;
+    left:20px;
+    top:1715px;
+}
+
+.step3 p{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1698px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step3 p1{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1790px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step3 p2{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1880px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.imagestep4{
+    position: relative;
+    top:37px;
+    left:637px;
+    margin-bottom: 180px;
+}
+
+.stepbullet4{
+    position: absolute;
+    left:20px;
+    top:1985px;
+}
+
+.step4 p{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:1967px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step4 p1{
+    position: absolute;
+    color: rgba(47, 42, 44, 0.8);
+    top:2050px;
+    left:40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Tips h1{
+    position: relative;
+    bottom:100px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.stepsgradient{
+    position: absolute;
+    top:2260px;
+    left: 60px;
+    background:rgba(54, 49, 51, 0.15);
+    height:1px;
+    border-radius: 3px;
+    width:60.4%;
+}
+
+.Tipsbox{
+    position: absolute;
+    top:2290px;
+    width: 63%;
+    height: 15%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color: rgb(255, 238, 231);
+}
+
+.Tipsbox p{
+    position: absolute;
+    left:15px;
+    color: rgba(47, 42, 44, 0.8);
+    font-size: 14px;
+    line-height: 20px
+}
+
+.Tipsbox p1{
+    position: absolute;
+    top:40px;
+    left:15px;
+    color: rgba(47, 42, 44, 0.8);
+    font-size: 14px;
+    line-height: 20px
+}
+
+.Tipsbox p2{
+    position: absolute;
+    top:65px;
+    left:15px;
+    color: rgba(47, 42, 44, 0.8);
+    font-size: 14px;
+    line-height: 20px
+}
+
+.reddot{
+    position: absolute;
+    top:22px;
+    left:9px;
+}
+
+.reddot2{
+    position: absolute;
+    top:50px;
+    left:9px;
+}
+
+.reddot3{
+    position: absolute;
+    top:73px;
+    left:9px;
+}
+
+.Comments h1{
+    position: relative;
+    top:50px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.Commentsgradient{
+    position: absolute;
+    background:rgba(54, 49, 51, 0.15);
+    top:2435px;
+    left: 100px;
+    height:1px;
+    border-radius: 3px;
+    width:57.8%;
+}
+
+.profilecomment{
+    position:relative;
+    top:60px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.commentsprofile h1{
+    position: absolute;
+    top: 2456px;
+    font-size: 14px;
+    left:75px;
+    color: rgba(47, 42, 44, 1);
+}
+
+.commentsprofile p{
+    position: absolute;
+    font-size: 14px;
+    top:2480px;
+    left:75px;
+    color: rgba(47, 42, 44, 0.8);
+}
+
+.commentsprofile p1{
+    position: absolute;
+    font-size: 10px;
+    top:2469px;
+    left:180px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+.likecomment{
+    position: absolute;
+    top:2465;
+    left:230px;
+}
+
+.commentsprofile p2{
+    position: absolute;
+    font-size: 10px;
+    top:2469px;
+    left:250px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+
+
+
+.commentsprofile2 h1{
+    position: absolute;
+    top: 2556px;
+    font-size: 14px;
+    left:75px;
+    color: rgba(47, 42, 44, 1);
+}
+
+.commentsprofile2 p{
+    position: absolute;
+    font-size: 14px;
+    top:2580px;
+    left:75px;
+    color: rgba(47, 42, 44, 0.8);
+}
+
+.commentsprofile2 p1{
+    position: absolute;
+    font-size: 10px;
+    top:2569px;
+    left:180px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+.likecomment2{
+    position: absolute;
+    top:2565;
+    left:230px;
+}
+
+.commentsprofile2 p2{
+    position: absolute;
+    font-size: 10px;
+    top:2569px;
+    left:250px;
+    color: rgba(47, 42, 44, 0.5);
+}
+
+.commentbutton{
+    position: relative;
+    margin-bottom: 50px;
+    top:35px;
+    left:400px;
+    color: rgba(233, 43, 100, 1);
+    font-size: 14px;
+    text-align: center;
+    background: white;
+    width:240px;
+    height: 18px;
+    border-radius: 10px;
+    border:2px solid rgba(233, 43, 100, 1);
+}
+
+.Ad{
+    position: absolute;
+    top:110px;
+    left:1070px;
+}
+
+.videoad{
+    position: absolute;
+    top:330px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+
+.videoad2{
+    position: absolute;
+    top:430px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad2 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad2 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark2{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad2 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad2 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo2{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+
+.videoad3{
+    position: absolute;
+    top:530px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad3 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad3 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark3{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad3 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad3 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo3{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+.videoad4{
+    position: absolute;
+    top:630px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad4 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad4 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark4{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad4 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad4 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo4{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+.videoad5{
+    position: absolute;
+    top:730px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad5 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad5 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark5{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad5 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad5 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo5{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+.videoad6{
+    position: absolute;
+    top:830px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad6 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad6 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark6{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad6 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad6 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo6{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+.videoad7{
+    position: absolute;
+    top:930px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad7 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad7 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark7{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad7 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad7 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo7{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+.videoad8{
+    position: absolute;
+    top:1030px;
+    left:1070px;
+    width: 28%;
+    height: 35%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-color:transparent;
+}
+
+.videoad8 h1{
+    position: absolute;
+    color: rgba(47, 42, 44, 1);
+    font-size: 14px;
+    top:-10px;
+    left:170px;
+}
+
+.videoad8 p{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.8);
+    font-size: 12px;
+    top:40px;
+    left:170px;
+}
+
+.videomark8{
+    position: absolute;
+    top:53px;
+    left:225px;
+}
+
+.videoad8 p1{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:220px;
+}
+
+.videoad8 p2{
+    position: absolute;
+    color:rgba(47, 42, 44, 0.5);
+    font-size: 10px;
+    top:78px;
+    left:190px;
+}
+
+.likevideo8{
+    position: absolute;
+    top:74px;
+    left:170px;
+}
+
+
+
+.footSupport{
+    position: absolute;
+    font-size: 16px;
+    color: rgba(47, 42, 44, 1);
+    left:300px;
+}
+
+.footSupportp{
+    left: 300px;
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.8);
+    line-height: 1.8;
+}
+
+.footCommericals{
+    left: 670px;
+    font-size: 16px;
+    color: rgba(47, 42, 44, 1);
+    position: absolute;
+     
+}
+
+.footCommericalsp{
+    left:670px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.8);
+    line-height: 1.8;
+    position: absolute;
+    top: 50px;
+
+}
+.footabout{
+    position: absolute;
+    font-size: 16px;
+    color: rgba(47, 42, 44, 1);
+    right: 410px;
+}
+.footaboutp{
+    right: 350px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.8);
+    line-height: 1.8;
+    position: absolute;
+    top:49.7px;
+}
+
+.footergradient{
+    position: relative;
+    left:300px;
+    top:170px;
+    background:rgba(47, 42, 44, 0.15);
+    height:1px;
+    border-radius: 2px;
+    width:60.4%;
+    margin-bottom: 30px;
+}
+
+.footerbelow{
+    position: absolute;
+    left:300px;
+    top:180px;
+    font-size: 12px;
+    color: rgba(47, 42, 44, 0.8);
+}
+
+.footerimage{
+    position: absolute;
+    top:185px;
+    left:900px;
+}
+
+.footerimage2{
+    position: absolute;
+    top:185px;
+    left:1040px;
+}
